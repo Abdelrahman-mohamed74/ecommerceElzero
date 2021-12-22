@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+/************* start login ***********/
+
+.login{
+	width: 400px;
+	margin: 100px auto;
+	
+}
+.login h3{
+	color: gray;
+}
+.login input{
+	margin-bottom: 10px;
+
+}
+.login .form-control{
+	background-color:#e5e5e5 ;
+}
+
+/* end login */
+
+/********** Start Dashboard Page **********/
+
+.dashboard .stat{
+	color: #fff;
+	padding: 10px 0;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.dashboard .stat span{
+	display: block;
+	font-size: 40px;
+}
+.dashboard .stat a{
+	color: #fff;
+}
+.toggle-plus{
+	cursor: pointer;
+}
+.comments-box a{
+	width: 110px;
+	color: #0DCAF0;
+}
+.comments-box p{
+	width: calc(100% - 120px);
+	position: relative;
+}
+.comments-box p:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 5px;
+    left: -25px;
+	border-style: solid;
+	border-width: 8px;
+	border-color: transparent #ddd transparent transparent;
+}
+/* End Dashboard Page */
+
+/********** Start Page members ************/
+
+.activate{
+	margin-left: 4px;
+	color: #fff;
+}
+.form-group .col-md-6{
+	position: relative;
+}
+.asterisk{
+	position: absolute;
+	right: 7px;
+	margin-top: -32px;
+	font-size: 22px;
+	color: #f00;
+}
+#show-hide{
+	position: absolute;
+	right: 22px;
+	margin-top: -28px;
+	font-size: 15px;
+}
+#show-hide:hover{
+	cursor: pointer;
+}
+/* table manage page */
+
+.main-table td{
+	vertical-align: middle;
+}
+.main-table .btn{
+	padding: 4px 11px;
+}
+.main-table td i{
+	position: relative;
+	right:2px ;
+}
+.main-table img{
+	width: 60px;
+	border-radius: 50%;
+}
+
+/* End Page members */
+
+/* Start Page Categories */
+.categories h3{
+	cursor: pointer;
+}
+.list-group-item .hidden-buttons{
+	position: absolute;
+	top: 15px;
+	right: -160px;
+	transition: all .7s ease-in-out;
+}
+.categories:hover{
+	background-color: #eee;
+}
+.categories:hover .hidden-buttons{
+	position: absolute;
+	right: 15px;
+}
+.option a,
+.option span{
+	color: #0B5ED7;
+}
+.option span:hover{
+	cursor: pointer;
+}
+.option .active{
+	color:darkgreen ;
+}
+.full-view .confirm{
+	display: none;
+}
+
+/* End Page Categories */
+
+.select-status{
+	background-color: #ddd;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+body{
+	height: 3000px;
+}
+/***************** Login ******************/
+.form form{
+	max-width: 400px;
+	margin: auto;
+}
+.form h3 span{
+	cursor: pointer;
+}
+.active{
+	color: #0B5ED7;
+}
+.signup{
+	display: none;
+}
+/********** item page ***********/
+.form-floating textarea{
+	max-height: 200px;
+}
+.tag{
+	display: inline-block;
+}
+
+/************ profile page **************/
+.wait-approve{
+	width: 145px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.text-desc{
+	height: 45px;
+	max-height: 45px;
+	overflow: hidden;
+}
+.navbar img{
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
